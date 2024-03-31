@@ -7,14 +7,14 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // 定义一个变量存储共同的标题内容
-const siteTitle = '福州外语外贸学院〇〇〇研究中心';
+const siteTitle = '数字商务与贸易研究中心';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: siteTitle,
 
   // Set the production url of your site here
-  url: 'https://gitee.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -22,7 +22,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'm18150095612', // Usually your GitHub org/user name.
-  projectName: 'demosite', // Usually your repo name.
+  projectName: 'domosite', // Usually your repo name.
 
   onBrokenLinks: 'ignore',  // Docusaurus 在检测到无效链接时的行为。
   onBrokenMarkdownLinks: 'ignore',  // Docusaurus 在检测到无效 Markdown 链接时的行为。
