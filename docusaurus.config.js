@@ -17,7 +17,7 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/domosite/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -34,6 +34,8 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+
+  trailingSlash: false,
 
   presets: [
     [
@@ -55,6 +57,11 @@ const config = {
     ({
       navbar: {
         title: siteTitle,
+        logo: {
+          alt: 'FUIST Logo',
+          src: 'img/fuist_logo.svg',
+          height: 32,
+        },
         items: [
           {
             label: '学校首页', // 导航项的文本
