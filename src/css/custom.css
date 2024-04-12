@@ -47,3 +47,8 @@
   color: #eda450; /* 文字的补色 */
 }
 
+.navbar__item.disabled {
+  color: #ccc !important; /* 灰色文本 */
+  pointer-events: none !important; /* 禁止点击 */
+  cursor: not-allowed !important; /* 不允许的光标图标 */
+}

@@ -74,39 +74,43 @@ const config = {
             position: 'left', // 导航项的位置
           },
           {
-            to: '/', // 这里的路径是相对于网站根目录的
-            label: '中心概况', // 导航项的文本
-            position: 'left', // 导航项的位置
-          },
-          {
-            to: '/', // 这里的路径是相对于网站根目录的
             label: '队伍结构',
+            href: 'http://gsx.fzfu.com/xygk/szdw.htm',
             position: 'left', // 导航项的位置
           },
           {
-            to: '/', // 这里的路径是相对于网站根目录的
+            to: '/#center-news', // 这里的路径是相对于网站根目录的
             label: '中心新闻', // 导航项的文本
             position: 'left', // 导航项的位置
           },
           {
-            to: '/', // 这里的路径是相对于网站根目录的
             label: '科研工作', // 导航项的文本
+            href: 'http://gsx.fzfu.com/kxyj.htm',
             position: 'left', // 导航项的位置
+          },
+          {
+            to: '/', // 这里的路径是相对于网站根目录的
+            label: '中心概况', // 导航项的文本
+            position: 'left', // 导航项的位置
+            className: 'disabled',
           },
           {
             to: '/', // 这里的路径是相对于网站根目录的
             label: '培训工作', // 导航项的文本
             position: 'left', // 导航项的位置
+            className: 'disabled',
           },
           {
             to: '/', // 这里的路径是相对于网站根目录的
             label: '交流工作', // 导航项的文本
             position: 'left', // 导航项的位置
+            className: 'disabled',
           },
           {
             to: '/', // 这里的路径是相对于网站根目录的
             label: '下载专区', // 导航项的文本
             position: 'left', // 导航项的位置
+            className: 'disabled',
           },
         ],
       },
@@ -117,8 +121,12 @@ const config = {
             title: '相关链接',
             items: [
               {
-                label: '链接1',
-                to: '/',
+                label: '福州外语外贸学院',
+                href: 'http://www.fzfu.edu.cn/',
+              },
+              {
+                label: '国际商学院-福州外语外贸学院',
+                href: 'http://gsx.fzfu.com/',
               },
             ],
           },
