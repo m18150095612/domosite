@@ -74,6 +74,11 @@ const config = {
             position: 'left', // 导航项的位置
           },
           {
+            to: '/intro', // 这里的路径是相对于网站根目录的
+            label: '中心简介', // 导航项的文本
+            position: 'left', // 导航项的位置
+          },
+          {
             label: '队伍结构',
             href: 'http://gsx.fzfu.com/xygk/szdw.htm',
             position: 'left', // 导航项的位置
@@ -87,12 +92,6 @@ const config = {
             label: '科研工作', // 导航项的文本
             href: 'http://gsx.fzfu.com/kxyj.htm',
             position: 'left', // 导航项的位置
-          },
-          {
-            to: '/', // 这里的路径是相对于网站根目录的
-            label: '中心概况', // 导航项的文本
-            position: 'left', // 导航项的位置
-            className: 'disabled',
           },
           {
             to: '/', // 这里的路径是相对于网站根目录的
