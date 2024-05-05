@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1618],{7421:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/domosite/blog/tags/hola","allTagsPath":"/domosite/blog/tags","count":1,"unlisted":false}')}}]);
